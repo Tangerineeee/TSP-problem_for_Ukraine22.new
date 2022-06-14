@@ -1,0 +1,97 @@
+h4, h3 {
+    color: rgba(255, 255, 0, 1);
+    font-family: "Courier New", monospace;
+    text-align: center;
+}
+
+h5 {
+    color: rgba(255, 255, 0, 1);
+    font-family: "Courier New", monospace;
+    font-size: 18px;
+    text-align: left;
+    vertical-align: center;
+}
+
+#last-ul {
+    vertical-align: center;
+}
+
+h1 {
+    font-family: "Courier New", monospace;
+    color: rgba(0, 0, 255, 1);
+    text-align: center;
+    padding-top: 3%;
+}
+
+
+.form-label {
+    font-family: "Courier New", monospace;
+    color: rgba(255, 255, 0, 1);
+    font-size: 17px;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.6) 30%, rgba(255, 255, 0, 0.6));
+}
+
+#results {
+    justify-content: center;
+    object-position: center;
+}
+
+#left-side, #right-side {
+    justify-content: center;
+    background-color: rgba(0, 0, 255, 0.3);
+    background-size: 300px, 600px;
+    border-radius: 80px;
+}
+
+.form-control {
+    width: 75%;
+}
+
+#city {
+    width: 90%;
+}
+
+.submit {
+    background-color: rgba(0, 0, 255, 0.4);
+    border-radius: 12px;
+    width: 200px;
+    border: none;
+    color: rgba(255, 255, 0, 1);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    font-family: "Courier New", monospace;
+}
+
+ol {
+    color: rgba(255, 255, 0, 1);
+    font-family: "Courier New", monospace;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    color: rgba(255, 255, 0, 1);
+    font-family: "Courier New", monospace;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.return {
+    background-color: rgba(0, 0, 255, 0.4);
+    border-radius: 12px;
+    width: 350px;
+    border: none;
+    text-decoration: none;
+    color: rgba(255, 255, 0, 1);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    font-family: "Courier New", monospace;
+}

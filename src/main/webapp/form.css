@@ -1,0 +1,48 @@
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.full-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: decimal !important;
+    margin-bottom: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.list-item p {
+    display: list-item;
+}
+
+.delete-button {
+    display: inline-block;
+    padding-top: 5px;
+    width: 20px;
+    height: 20px;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiN1bmRlZmluZWQ7Ij48cGF0aCBkPSJNIDM5LjQ4NjMyOCA2Ljk3ODUxNTYgQSAxLjUwMDE1IDEuNTAwMTUgMCAwIDAgMzguNDM5NDUzIDcuNDM5NDUzMSBMIDI0IDIxLjg3ODkwNiBMIDkuNTYwNTQ2OSA3LjQzOTQ1MzEgQSAxLjUwMDE1IDEuNTAwMTUgMCAwIDAgOC40ODQzNzUgNi45ODQzNzUgQSAxLjUwMDE1IDEuNTAwMTUgMCAwIDAgNy40Mzk0NTMxIDkuNTYwNTQ2OSBMIDIxLjg3ODkwNiAyNCBMIDcuNDM5NDUzMSAzOC40Mzk0NTMgQSAxLjUwMDE1IDEuNTAwMTUgMCAxIDAgOS41NjA1NDY5IDQwLjU2MDU0NyBMIDI0IDI2LjEyMTA5NCBMIDM4LjQzOTQ1MyA0MC41NjA1NDcgQSAxLjUwMDE1IDEuNTAwMTUgMCAxIDAgNDAuNTYwNTQ3IDM4LjQzOTQ1MyBMIDI2LjEyMTA5NCAyNCBMIDQwLjU2MDU0NyA5LjU2MDU0NjkgQSAxLjUwMDE1IDEuNTAwMTUgMCAwIDAgMzkuNDg2MzI4IDYuOTc4NTE1NiB6Ij48L3BhdGg+PC9zdmc+') 50% 50% no-repeat;
+    background-size: 100%;
+    border: none;
+    /*z-index: 100;*/
+}
+
+.add-button {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCA1MCA1MCIKc3R5bGU9IiBmaWxsOiN1bmRlZmluZWQ7Ij48cGF0aCBkPSJNIDI1IDIgQyAxMi4zMDkyOTUgMiAyIDEyLjMwOTI5NSAyIDI1IEMgMiAzNy42OTA3MDUgMTIuMzA5Mjk1IDQ4IDI1IDQ4IEMgMzcuNjkwNzA1IDQ4IDQ4IDM3LjY5MDcwNSA0OCAyNSBDIDQ4IDEyLjMwOTI5NSAzNy42OTA3MDUgMiAyNSAyIHogTSAyNSA0IEMgMzYuNjA5ODI0IDQgNDYgMTMuMzkwMTc2IDQ2IDI1IEMgNDYgMzYuNjA5ODI0IDM2LjYwOTgyNCA0NiAyNSA0NiBDIDEzLjM5MDE3NiA0NiA0IDM2LjYwOTgyNCA0IDI1IEMgNCAxMy4zOTAxNzYgMTMuMzkwMTc2IDQgMjUgNCB6IE0gMjQgMTMgTCAyNCAyNCBMIDEzIDI0IEwgMTMgMjYgTCAyNCAyNiBMIDI0IDM3IEwgMjYgMzcgTCAyNiAyNiBMIDM3IDI2IEwgMzcgMjQgTCAyNiAyNCBMIDI2IDEzIEwgMjQgMTMgeiI+PC9wYXRoPjwvc3ZnPg==') 50% 50% no-repeat;
+    background-size: 100%;
+    border: none;
+}
